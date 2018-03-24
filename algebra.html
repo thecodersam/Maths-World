@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+		<link href="math style.css" rel="stylesheet">
+		<link href="math learning css.css" rel="stylesheet">
+		<title>MATH WORLD - ALGEBRA</title>
+	</head>
+	<body>
+		<div class="header">
+			<h1>MATH/WORLD</h1>
+			<small>From Rearranging to Riemann</small>
+			<ul class="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="algebra.html">Algebra</a></li>
+				<li><a href="about.html" class="active">About Me</a></li>
+			</ul>
+		</div>
+		
+		<br>
+		
+		<div class="nanum main">
+		
+			<div id="sidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="#intro">Introduction</a>
+				<a href="#divis">Divisiblity</a>
+			</div>
+			
+			<button onclick="openNav()" class="inputbtn">Open Navigation Bar</button>
+			
+			<h1 id="intro">Introduction</h1>
+			<p>Hey! You are starting the Algebra course. The only things you need to know to do this course are long multiplication and long division. If you don't know these things, an Arithmetic Course is being designed, but for now, you'll need to leave the website and find somewhere else. Also, I give credit to Coolmath, where I learned this stuff, and I used to choose what to teach and in what order. Thank you for reading and enjoy.</p>
+			
+			<h1 id="divis">Divisibility</h1>
+			<h2>1.1: Divisibility Tests</h2>
+			<p>In math, it is very important to know if one number can go into another without remainder. This is called <strong>divisibility</strong>. Don't understand? Here let me explain what I mean with an animation.</p>
+			
+			<div class="anim">
+				<p>6 / 3 = <span class="fadein">2</span> r <span class="fadein">0</span></p>
+				<p class="smalltext">6 is divisible by 3 because there is no remainder</p>
+				
+				<p>10 / 3 = <span class="fadein">3</span> r <span class="fadein">1</span></p>
+				<p class="smalltext">10 is <strong>NOT</strong> divisible by 3 because there is a remainder</p>
+			</div>
+			
+			<p>We'll get to how it is important later, but for now, just know that it is important. But the numbers aren't going to be so easy to calculate all the time. Like, is 3452194 divisible by 3? You could do long division to see, but that can start to get quite time-consuming and annoying as the numbers build up. Luckily, <b>divisibility tests</b> are here to save you. They make it easy to see if something is divisible by <b>1, 2, 3, 4, 5, 6, 7, 8, 9 and 10</b>. They might take a while to figure out, but once you get the hang of it, you will be seeing if numbers are divisible like a pro. <br> <small>Remember: You don't always have to use these. Sometimes it's easier to just use long division.</small></p>
+			
+			
+			<table>
+				<tr>
+					<th>Number</th>
+					<th>Test</th>
+					<th>Examples</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Every integer (not a fraction) is divisible by 1</td>
+					<td>4 divisible by 1 <br> 2/3 not divisible by 1 <br> 6.9 not divisible by 1</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>A number is divisible by 2 if it ends in 0, 2, 4, 6, or 8
+					<td>45<b>2</b> is divisible by 2 <br> 34<b>7</b> id not divisible by 2</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>A number is divisible by 3 if the sum of its digits is divisible by 3</td>
+					<td>324 --> 3+2+4 = 9 <br> 9 is divisible by 3, so 324 is dvisible by 3</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>A number is divisible by 4 if its last two digits is divisible by 4</td>
+					<td>659<b>12</b> is divisible by 4 <br> 524<b>21</b> is not divisible by 4</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>A number is divisible by 5 if it ends in 0 or 5</td>
+					<td>659<b>0</b> is divisible by 5 <br> 394<b>7</b> is not divisible by 5</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>A number is divisible by 6 if is divisible by 2 and 3 (check previous tests)</td>
+					<td>1206 is divisible by 2 and 3, therefore divisible by 6.</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Double the last digit and subtract from the number made from the other digits. The result must be divisible by 7.</td>
+					<td>17<b>5</b>: double 5 is 10, 17-10=7, 7 divisible by 7, so 175 divisible by 7.</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Halve three times. If in any of the halves, the result is not whole, it isn't divisible by 8. </td>
+					<td>56: 56/2 = 28, 28/2 = 14, 14/2 = 7. 7 is a whole number, so 56 divisible by 8. <br> 26: 26/2 = 13, 13/2 = 6.5, 6.5 is not a whole number so not divisible by 3</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>If sum of digits divisible by 9, then number divisible by 9.</td>
+					<td>5346: 5+3+4+6=18, 18 divisible by 9, so 5436 divisible by 9.</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>If last digit is 0, it's divisible by 10.</td>
+					<td>569<b>0</b>: divisible by 10</td>
+				</tr>
+			</table>
+
+			<p>Here! Put in the first number and choose the second number and this will see if the first number is divisible by the second number. Can you use the tests to get to the same answer?</p>
+
+			<!-- This is the divisibility tester. It has an input to type the dividend, and a drop-down menu to select the divisor. Then when you click the button, it activates Javascript and writes the answer into the span. -->
+			<p id="input">Is <input type="text" id="dividend"> divisible by
+			
+			<select id="divisor">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+			?
+			</p>
+			<span id="output"></>
+			
+			<button class="inputbtn" id="divisbtn">Divisibilize!</button>
+			
+			<h3>Exercises</h3>
+			<p>Test what you've learned. (If you can't figure it out, don't be afraid to use the divisibility machine above, but if you can, try to work it out for yourself.)</p>
+			
+			<span id="pq1">1. Name the numbers (between 1 and 10) that 96 are divisible by.</span> <button class="inputbtn question" id="btnq1">See Answer</button> <br>
+			<span id="pq2">2. Name the numbers (between 1 and 10) that 7 are divisible by.</span> <button class="inputbtn question" id="btnq2">See Answer</button> <br>
+			<span id="pq3">3. Name the numbers (between 1 and 10) that 70 are divisible by.</> <button class="inputbtn question" id="btnq3">See Answer</button> <br>
+			<span id="pq4">4. Name the numbers (between 1 and 10) that 235.3 are divisible by.</> <button class="inputbtn question" id="btnq4">See Answer</button> <br>
+			
+			
+			<h2>1.2: Factorizations</h2>
+			<p>I need to show you why all this divisibility is important, and it's one, long word, "factorizations". (thinks for a while...) Divisibility, factorizations, man, maths sure has it's long words.</p>
+			
+			<p>"Factorizing" means "splitting a number into smaller numbers that when multiplied together equals the bigger number." In English, it means finding all the pairs of numbers that when the pairs are multiplied together, they equal the original number. Still not understanding? Let me show you.</p>
+			
+			<img src="fctr drawing1.png">
+			
+			<p>Hopefully that gave you a clear image (pun intended) about what factorizing means. Now that you know, let's do an example.</p>
+			
+			<div class="ex">
+				<h3>Q: Find the factors of 24</h3>
+				
+				<p class="a">A: So we know 24 goes into 1 because of the '1 divisibility test' and we know it goes 12 times. <br> It goes into 2 because it's even, and with division, we can see that 2 x 12 = 24. <br> The sum of 24's digit is 6, so it is divisible by 3, and again, with division we show that 3 x 8 = 24. <br> It's divisible by 4 and 6 also because of the rules. <br> So the factors of 24 are 1, 24, 2, 12, 3, 8, 4 and 6.</p>
+				
+			</div>
+			
+			<p>Now the exercises!</p>
+			
+			<span id="pq5">1. Find the factors of 19.</span> <button class="inputbtn question" id="btnq5">See Answer</button> <br>
+			<span id="pq6">2. Find the factors of 25.</span> <button class="inputbtn question" id="btnq6">See Answer</button> <br>
+			<span id="pq7">3. Find the factors of 11.</span> <button class="inputbtn question" id="btnq7">See Answer</button> <br>
+			<span id="pq8">4. Find the factors of 90.</span> <button class="inputbtn question" id="btnq8">See Answer</button> <br>
+			
+			<h2>1.3: Primes and Composite</h2>
+			<p>On the last group of questions, what did you get for no. 1 and 3? Pretty short, right? Just 1 and 11, and 1 and 19. These factors are obvious, because everyone knows that 1 x n = n. Right? So, now I'm going to introduce you to two new words that finally, aren't that long. Prime and composite.</p>
+			
+			<p>Prime means a number that has only 2 factors, 1 and the number itself. A composite number has more than 2 factors.</p>
+			
+			<div class="ex">
+				<h3>Q: Is 44 prime?</h3>
+				
+				<p class="a">A: So we know that this number has factors 1 and 44. We know that if it was prime, it would have only those factors. So, if we know that it has any other factors, we can prove it is not prime. <br> And we do know! It ends in 4, so 2 is a factor. Now it has more than two factors so 44 is not prime.</p>
+			</div>
+			
+			<p>That was a short lesson. Now on to exercises!</p>
+			
+			<span id="pq9">1. Is 23 prime?</span> <button class="inputbtn question" id="btnq9">See Answer</button> <br>
+			<span id="pq10">2. Is 25 prime?</span> <button class="inputbtn question" id="btnq10">See Answer</button> <br>
+			<span id="pq11">3. Is 121 prime?</span> <button class="inputbtn question" id="btnq11">See Answer</button> <br>
+			<span id="pq12">4. Is 23,413,221 prime?</span> <button class="inputbtn question" id="btnq12">See Answer</button> <br>
+			
+			<h2>1.3: Primes Factorizations</h2>
+			<p>We know about primes, we know about factorizations, let's mash them up! Prime factorizations! Jokes aside this is real and very useful. Basically, it what you would expect. You factorize a number, but the end result can only include prime numbers. "But not <i><b>every</b></i> number will have a prime factorization, right?" WRONG! Prime numbers are like the elements for numbers. Every single thing is made up of them. "OK," you say, "But how do I find out the prime factorization of a number?" Yeah, yeah, I'm getting to that, but anyways. Now, my completely original and not expected answer when I heard about this, is, "But how do I find out the prime factorization of a number?" Well, one visual approach is to use factor trees. "But what <i><b>are</b></i> factor trees?" GEEZ! I was just about to get to that! Kids these days, just always want their stuff immediately, never can be just a little patient...</p>
+			
+			<img src="factor trees.png">
+			
+			<p>Let's prime factorize! (Remember: order doesn't matter with multiplication)</p>
+			
+			<span id="pq13">1. Prime factorize 25.</span> <button class="inputbtn question" id="btnq13">See Answer</button> <br>
+			<span id="pq14">2. Prime factorize 19.</span> <button class="inputbtn question" id="btnq14">See Answer</button> <br>
+			<span id="pq15">3. Prime factorize 90.</span> <button class="inputbtn question" id="btnq15">See Answer</button> <br>
+			<span id="pq16">4. Prime factorize 256.</span> <button class="inputbtn question" id="btnq16">See Answer</button> <br>
+			
+			<p>And that concludes the Divisibility chapter! Have a nice time with the rest of the lessons and make sure to remember this one! It will come up!</p>
+			
+			<p>New lessons coming soon!</p>
+		
+		<script src="math learning js.js"></script>
+	</body>
+</html>

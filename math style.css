@@ -1,0 +1,136 @@
+body { 
+	background-color: #b2b2b2;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+
+ul {
+	list-style: disc inside none;
+}
+
+.header {
+	background-color: #061605;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	font-family: 'Nanum Pen Script', cursive;
+	
+}
+
+.header h1 {
+	margin-bottom: -20px;
+	font-size: 90px;
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidenav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 80px;
+	border: 1px solid #555;
+	width: 282px;
+	height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+
+.nav li {
+    float: left;
+	font-size: 40px;
+}
+
+.nav a {
+    display: block;
+    padding: 8px;
+    background-color:  #bfffbf;
+	text-decoration: none;
+}
+
+.active {
+	background-color: #5f7f5f;
+}
+
+.nav li {
+    border: 4px solid #000000;
+	width: 32.5%;
+}
+
+.main {
+	color: #000000;
+}
+
+.nanum {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #005600;
+    
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+	margin-top: -10px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+    transition: 0.3s;
+	color: #ffffff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+    border: 2px groove black;
+	font-size: 25px;
+}
+
+input {
+	width: 300px;
+	height: 50px;
+	font-size: 40px;
+}
+
+canvas {
+	border: 3px solid black;
+}
+
+#input {
+	font-size: 40px;
+}
+
+select {
+	width: 90px;
+	height: 50px;
+	font-size: 20px;
+	position: relative;
+	top: -10px;
+}
