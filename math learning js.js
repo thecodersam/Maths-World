@@ -13,6 +13,7 @@ function divistest() {
 	var dividend = document.getElementById("dividend").value;
 	var divisor = parseFloat(document.getElementById("divisor").value);
 	var output = document.getElementById("output");
+	console.log(output);
 
 	if (dividend % divisor === 0) {
 		output.innerHTML = "yes";
