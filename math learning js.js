@@ -15,9 +15,9 @@ function divistest() {
 	var output = document.getElementById("output");
 
 	if (dividend % divisor === 0) {
-		output.innerHTML = "Yes!";
+		output.textContent = "Yes!";
 	} else {
-		output.innerHTML = "No!";
+		output.textContent = "No!";
 	}
 
 }
